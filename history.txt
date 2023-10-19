@@ -1,0 +1,239 @@
+    1  git clone https://github.com/Umuzi-org/Kgaugelo-Maake-394-bash-for-bootcamp-.git
+    2  git clone
+    3  mkdr git-basic-exercises
+    4  mkdir git-basic-exercises
+    5  cd git-basic-exercises/
+    6  ls -a
+    7  git init
+    8  ls -a
+    9  touch README.md
+   10  ls -a
+   11  git status
+   12  git config --list
+   13  man git-config 
+   14  git man
+   15  git am
+   16  am
+   17  git config --global credential.helper.cachefile ~/.git-credentials
+   18  mkdir .git-credentials
+   19  cd .git-credentials/
+   20  nano .git-credentials
+   21  git config --global credential.helper
+   22  git status
+   23  git log
+   24  ls -a
+   25  cat README.md 
+   26  git status
+   27  nano README.md 
+   28  git status
+   29  git add .
+   30  git commit -m "second commit"
+   31  nano README.md 
+   32  cat README.md 
+   33  git add .
+   34  git log
+   35  git checkout 7fce5fc810ee5a4625a038f890b44b7c5c1d50a1
+   36  cat README.md 
+   37  git stash
+   38  git checkout 7fce5fc810ee5a4625a038f890b44b7c5c1d50a1
+   39  cat README.md 
+   40  git checkout master
+   41  cat README.md 
+   42  nano README.md 
+   43  git log
+   44  git checkout [200~0ccf71fd3dafecc00f647b52a0ee959df20f4b09~
+   45  git status
+   46  cat README.md 
+   47  nano README.md 
+   48  git stash
+   49  git status
+   50  cat README.md 
+   51  nano README.md 
+   52  git status
+   53  git commit -m "third commit"
+   54  git add .
+   55  git commit -m "third commit"
+   56  git log
+   57  git branch
+   58  git branch milkshake-flavours
+   59  git branch
+   60  git branch
+   61  git checkout milkshake-flavours
+   62  git branch
+   63  nano milkshakes.md
+   64  ls -a
+   65  ls 
+   66  nano milkshakes.md
+   67  ls
+   68  git status
+   69  git add milkshakes.md 
+   70  git stash
+   71  git log
+   72  git commit -m "added initial flavours"
+   73  git log
+   74  nano README.md 
+   75  nano milkshakes,md
+   76  nano milkshakes.md
+   77  git status
+   78  ls
+   79  rm -r milkshakes,md
+   80  ls
+   81  cat milkshakes.md 
+   82  rm -r milkshakes.md
+   83  ls
+   84  nano milkshakes.md
+   85  git status
+   86  git commit -m "added initial flavours"
+   87  git add
+   88  git add milkshakes.md 
+   89  git commit -m "added initial flavours"
+   90  git log
+   91  git checkout master
+   92  ls
+   93  git log
+   94  git branch history
+   95  git branch 
+   96  git checkout history 
+   97  git log
+   98  git branch 
+   99  history > history.txt
+  100  ls
+  101  git add history.txt 
+  102  git commit -m "added history"
+  103  git log
+  104  git checkout master
+  105  ls
+  106  git checkout milkshake-flavours 
+  107  git log
+  108  nano README.md 
+  109  git addd .
+  110  git add .
+  111  git commit -m "random readme changes"
+  112  git checkout history 
+  113  cat README.md 
+  114  rm README.md 
+  115  echo "booya" > README.md
+  116  git status
+  117  git add README.md 
+  118  git commit -m "rewrote readme"
+  119  git checkout master 
+  120  ls
+  121  git log
+  122  git checkout milkshake-flavours 
+  123  ls
+  124  git log
+  125  git checkout history 
+  126  ls
+  127  git log
+  128  git checkout master 
+  129  git merge milkshake-flavours 
+  130  ls
+  131  git log
+  132  git merge history 
+  133  ls
+  134  git log
+  135  git checkout history 
+  136  git log
+  137  git checkout milkshake-flavours 
+  138  git checkout history 
+  139  git merge master
+  140  git status
+  141  git add .
+  142  git commit
+  143  git log
+  144  git config
+  145  git commit --amend --author="Kgaugelo Maake kgaugelocharmain@gmail.com"
+  146  git commit --amend --author="KgaugeloMaake kgaugelocharmain@gmail.com"
+  147  git commit --amend --author="Kgaugelo kgaugelocharmain@gmail.com"
+  148  git status
+  149  git commit
+  150  git remote add origin https://github.com/KgaugeloMaake/git-basic-exercises.git
+  151  git branch -M main
+  152  git push -u origin main
+  153  cd ../
+  154  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  155  cd a-repo-to-clone/
+  156  git branch
+  157  git log
+  158  git branch -a
+  159  git checkout a-branch-with-a-few-commits 
+  160  git remote -v
+  161  git log
+  162  cd home
+  163  cd ../
+  164  mkdir this-will-be-another-repo
+  165  cd this-will-be-another-repo/
+  166  git init
+  167  cd ../
+  168  git checkout git-basic-exercises/
+  169  ls
+  170  cd git-basic-exercises/
+  171  git log
+  172  cd ../
+  173  cd this-will-be-another-repo/
+  174  touch README.md
+  175  git add README.md 
+  176  git commit -m "initial commit"
+  177  git checkout main
+  178  cd ../
+  179  ls
+  180  cd git-basic-exercises/
+  181  git branch
+  182  git status
+  183  git push
+  184  git checkout history
+  185  git commit
+  186  mkdir git-basic-exercises
+  187  cd git-basic-exercises/
+  188  ls -a
+  189  git init
+  190  ls -a
+  191  git status
+  192  touch README.md
+  193  ls -a
+  194  git status
+  195  git log
+  196  git add README.md 
+  197  git status
+  198  rm -r README.md 
+  199  git status
+  200  git add README.md 
+  201  git status
+  202  ls -a
+  203  touch README.md
+  204  git add README.md 
+  205  ls -a
+  206  git commit -m "initial commit"
+  207  git log
+  208  nano README.md 
+  209  cat README.md 
+  210  git status
+  211  git add README.md 
+  212  git config --global core.eol lf
+  213  git commit -m "second commit"
+  214  nano README.md 
+  215  git add README.md 
+  216  git commit -m "third commit"
+  217  cat README.md 
+  218  git log
+  219  git checkout 32b6f57c31fee07e6cd76d1bbed16f3d4bb6dc8f
+  220  cat README.md 
+  221  git checkout master
+  222  cat README.md 
+  223  git branch
+  224  git branch milkshake-flavours
+  225  git branch
+  226  git checkout milkshake-flavours 
+  227  git branch
+  228  nano milkshakes.md
+  229  git status
+  230  git add milkshakes.md 
+  231  git commit -m "added initial flavours"
+  232  git log
+  233  git checkout master 
+  234  git log
+  235  git branch history
+  236  git checkout history 
+  237  git log
+  238  git branch
+  239  history > history.txt
